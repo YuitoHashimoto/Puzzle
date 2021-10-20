@@ -1,0 +1,383 @@
+html, body {
+  height: 100%;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont,"Helvetica Neue","Segoe UI","Hiragino Kaku Gothic ProN",Meiryo,sans-serif;
+}
+
+#head__canvas {
+  width: 768px;
+  height: 937px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.head {
+  width: 768px;
+  height: 937px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.head .heat__all {
+  width: 450px;
+  position: relative;
+  z-index: 2;
+}
+
+.head .heat__all .head__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+}
+
+.head .heat__all .head__logo h1 {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-family: "Andale Mono";
+  color: #FFFCFC;
+  font-size: 3.2rem;
+  margin-right: 23px;
+}
+
+.head .heat__all .head__btn {
+  display: flex;
+  width: 450px;
+  margin: 27px auto 0;
+  padding-top: 17px;
+  border-top: 2px solid #FFF;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+}
+
+.head .heat__all .head__btn p {
+  width: 141px;
+  height: 30px;
+  background: #fff;
+  padding-top: 15px;
+  border: 0.5px #2863BC solid;
+}
+
+.head .heat__all .head__btn p a {
+  width: 100%;
+  height: 100%;
+  padding-left: 35px;
+  display: inline-block;
+}
+
+.head .heat__all .head__btn p a img {
+  padding-left: 15px;
+}
+
+.head .heat__all .head__btn p a:link, .head .heat__all .head__btn p a:visited {
+  color: #2863BC;
+  font-family: "Andale Mono";
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+
+.main .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-family: "Arial";
+  font-size: 5.2rem;
+  color: #2863BC;
+  text-align: center;
+  font-style: italic;
+  font-weight: normal;
+  margin-bottom: 15px;
+}
+
+.main .title::before {
+  content: "";
+  margin-right: 35px;
+  display: inline-block;
+  width: 240px;
+  height: 3px;
+  background-color: #2863BC;
+}
+
+.main .title::after {
+  content: "";
+  margin-left: 35px;
+  display: inline-block;
+  width: 240px;
+  height: 3px;
+  background-color: #2863BC;
+}
+
+.main .subtitle {
+  font-family: "Andale Mono";
+  font-size: 1.4rem;
+  color: #2863BC;
+  text-align: center;
+}
+
+.main__about {
+  width: 100%;
+  text-align: center;
+}
+
+.main__about h2 {
+  padding-top: 135px;
+  font-family: "Arial";
+  font-size: 3.0rem;
+  color: #2863BC;
+  font-weight: normal;
+}
+
+.main__about p {
+  margin-top: 23px;
+  margin-bottom: 50px;
+  font-family: "Andale Mono";
+  font-size: 1.4rem;
+  color: #707070;
+}
+
+.main__about a {
+  position: relative;
+  display: block;
+  width: 210px;
+  height: 30px;
+  padding-top: 15px;
+  border: 0.5px solid #707070;
+  margin: 0 auto;
+  box-shadow: 0px 4px 3px 0px #707070;
+}
+
+.main__about a img {
+  position: absolute;
+  top: 18px;
+  right: 10px;
+}
+
+.main__about a:visited, .main__about a:link {
+  font-family: "Arial";
+  font-size: 1.4rem;
+  color: #707070;
+  text-decoration: none;
+}
+
+.main__merit {
+  padding-top: 135px;
+}
+
+.main__merit ul {
+  padding-top: 60px;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.main__merit ul li {
+  width: 230px;
+  height: 205px;
+  padding-top: 135px;
+  border: 4px solid #2863BC;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.main__merit ul li p {
+  padding-top: 73px;
+  font-family: "Andale Mono";
+  font-size: 1.4rem;
+  color: #2863BC;
+}
+
+.main__use {
+  padding-top: 116px;
+}
+
+.main__use__content {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.main__use__content__box {
+  width: 160px;
+  padding-top: 48px;
+  position: relative;
+}
+
+.main__use__content__box .imgOne::after, .main__use__content__box .imgTwo::after, .main__use__content__box .imgThree::after {
+  position: absolute;
+  content: "";
+  width: 40px;
+  height: 40px;
+  top: 160px;
+  background: url("../img/arrowBlue.svg");
+}
+
+.main__use__content__box h3 {
+  padding-bottom: 30px;
+  font-family: "Arial";
+  font-size: 4.0rem;
+  color: #2863BC;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.main__use__content__box p {
+  padding-top: 24px;
+  text-align: center;
+  font-family: "Arial";
+  font-size: 1.8rem;
+  color: #2863BC;
+}
+
+.main__use__point .hideBox {
+  margin: 0 auto;
+  padding-top: 35px;
+  width: 626px;
+  height: 165px;
+  background-color: #2863BC;
+  position: relative;
+  border-radius: 20px;
+  margin-top: 44px;
+}
+
+.main__use__point .hideBox p {
+  font-family: "Arial";
+  color: #FFFFFF;
+  font-size: 2.0rem;
+  margin-left: 45px;
+}
+
+.main__use__point .hideBox p span {
+  font-size: 4.0rem;
+  font-style: italic;
+  margin-right: 13px;
+}
+
+.main__use__point .hideBox__title {
+  position: relative;
+}
+
+.main__use__point .hideBox__title::after {
+  position: absolute;
+  content: "";
+  width: 263px;
+  height: 2px;
+  background: #fff;
+  top: 48px;
+  left: 0;
+}
+
+.main__use__point .hideBox__content {
+  padding-top: 27px;
+  font-size: 1.8rem;
+}
+
+.main__use__point .hideBox__content::after {
+  position: absolute;
+  content: "";
+  width: 105px;
+  height: 140px;
+  top: 30px;
+  right: 65px;
+  background: url("../img/lightHuman.svg");
+}
+
+.main__use__point__two, .main__use__point__three, .main__use__point__four {
+  display: none;
+}
+
+.main__use__point__two .hideBox__title::before {
+  content: "";
+  position: absolute;
+  border-top: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 30px solid #2863BC;
+  border-left: 30px solid transparent;
+  top: -80px;
+  left: 156px;
+}
+
+.main__use__point__three .hideBox__title::before {
+  content: "";
+  position: absolute;
+  border-top: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 30px solid #2863BC;
+  border-left: 30px solid transparent;
+  top: -80px;
+  left: 316px;
+}
+
+.main__use__point__four .hideBox__title::before {
+  content: "";
+  position: absolute;
+  border-top: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 30px solid #2863BC;
+  border-left: 30px solid transparent;
+  top: -80px;
+  left: 477px;
+}
+
+.main__acount {
+  padding-top: 165px;
+}
+
+.main__acount ul {
+  padding-top: 93px;
+  text-align: center;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.main__acount ul li:nth-child(2) {
+  margin-left: 45px;
+}
+
+.main__acount ul li {
+  width: 250px;
+  height: 250px;
+  border: 4px solid #2863BC;
+  border-radius: 20px;
+}
+
+.main__acount ul li a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  padding-top: 94px;
+  line-height: 40px;
+}
+
+.main__acount ul li a:visited, .main__acount ul li a:link {
+  font-family: "Arial";
+  font-size: 2.4rem;
+  color: #2678BF;
+  text-decoration: none;
+}
+
+.footer {
+  width: 100%;
+  height: 280px;
+  position: relative;
+}
+
+.footer #foot__canvas {
+  width: 100%;
+  height: 100%;
+}

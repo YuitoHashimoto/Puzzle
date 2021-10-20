@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="62" height="62" viewBox="0 0 62 62">
+  <g id="グループ_185" data-name="グループ 185" transform="translate(-117 -234)">
+    <g id="楕円形_143" data-name="楕円形 143" transform="translate(117 234)" fill="#fff" stroke="#707070" stroke-width="1">
+      <circle cx="31" cy="31" r="31" stroke="none"/>
+      <circle cx="31" cy="31" r="30.5" fill="none"/>
+    </g>
+    <g id="人物の無料素材" transform="translate(51.383 248)">
+      <path id="パス_58" data-name="パス 58" d="M132.6,18.493a9.247,9.247,0,1,0-9.246-9.247A9.246,9.246,0,0,0,132.6,18.493Z" transform="translate(-36.04)" fill="#4b4b4b"/>
+      <path id="パス_59" data-name="パス 59" d="M108.4,289.518a17.787,17.787,0,0,0-4.012-7.491,1.177,1.177,0,0,0-1.36-.1,12.294,12.294,0,0,1-12.94,0,1.177,1.177,0,0,0-1.36.1,17.789,17.789,0,0,0-4.012,7.491c-1.014,6.088,5.489,8.288,11.841,8.288S109.418,295.605,108.4,289.518Z" transform="translate(0 -262.116)" fill="#4b4b4b"/>
+    </g>
+  </g>
+</svg>

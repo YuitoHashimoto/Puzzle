@@ -1,0 +1,147 @@
+.logo{
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+.input{
+    background: url("../img/search.svg") no-repeat;
+    margin-left: 500px;
+    background-position: center right 20px;
+    width: 241px;
+}
+
+.headerContent{
+    background: tomato;
+}
+
+.txt{
+    width: 241px;
+    height: 36px;
+    border: 1px solid #2863BC;
+    border-radius: 7px;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.header{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 30px; 
+    display: flex;
+    overflow-x: scroll;
+    background: #fff;
+}
+
+.header::-webkit-scrollbar,.header::-moz-border-scrollbar{
+    background: #F2F2F2;
+}
+
+.header::-webkit-scrollbar-thumb,.header::-moz-border-scrollbar-thumb{
+    background: #2863BC;
+    box-shadow: none;
+}
+
+.head{
+    border: 1px solid #2863BC;
+    border-radius: 7px;
+    box-shadow: 3px 3px #707070;
+    margin-left: 15px;
+    height: 35px;
+    min-width: 185px;
+    text-align: center;
+}
+
+.head li:hover{
+    background-color: #2863BC;
+    color: white;
+}
+
+.menu{
+    height: 100%;
+    list-style: none;
+    /* padding-top: 2px; */
+    color: #2863BC;
+    font-size: 22px;
+}
+
+
+.txtSubBox{
+    display: none;
+    width: 100%;
+    height: 1024px;
+    position: fixed;
+    background: rgba(255,255,255,0.8);
+    z-index: 100;
+    justify-content: center;
+    padding-top: 210px;
+}
+
+.txtSub__title{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.txtSub__title > input{
+    width: 190px;
+    outline: none;
+    border-bottom: 1px solid #2863BC;
+    margin-left: 42px;
+    font-size: 16px;
+}
+
+.txtSub__title > button{
+    margin-right: 28px;
+    outline: none;
+}
+
+.txtSub{
+    position: relative;
+    width: 568px;
+    height: 240px;
+    border: 1px solid #2863BC;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.txtSub > button{
+    position: absolute;
+    width: 103px;
+    height: 38px;
+    background: #2863BC;
+    font-family: "Andale Mono";
+    color: #fff;
+    font-size: 12px;
+    outline: none;
+    right: 30px;
+    bottom: 28px;
+    padding-right: 50px;
+}
+
+.txtSub > button::before{
+    content: "";
+    position: absolute;
+    width: 28px;
+    height: 7px;
+    right: 5px;
+    background: url("../img/arrowSub.svg");
+}
+
+.txtSub > textarea {
+    width: 494px;
+    height: 90px;
+    resize: none;
+    margin: 0 auto;
+    outline: none;
+    font-size: 16px;
+    padding-left: 8px;
+}

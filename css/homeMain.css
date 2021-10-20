@@ -1,0 +1,88 @@
+#homeMain{
+    height: 100%;
+    padding-top: 170px;
+    padding-bottom: 78px;
+    overflow-y: scroll;
+}
+
+.question:last-child{
+    margin-bottom: 128px;
+}
+
+.question{
+    width: 570px;
+    /* height: 220px; */
+    border-bottom: 1px solid #707070;
+    /* margin-bottom: 10px; */
+    margin: 0 auto;
+    padding-bottom: 15px;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+
+.title-txt{
+    margin-left: 20px;
+    font-size: 22px;
+    color: #4B4B4B;
+    font-family: "Apple Braille";
+}
+
+.content{
+    margin-top: 15px;
+    margin-left: 98px;
+    color: #707070;
+    font-size: 16px;
+    font-family: "Apple Braille";
+}
+
+.btn{
+    display: flex;
+    margin-left: 77px;
+    margin-top: 44px;
+    font-family: "Impact";
+    font-size: 18px;
+    color: #707070;
+}
+
+.btn p{
+    margin-left: 20px;
+}
+
+.btn p:active{
+    color: #2863BC;
+}
+
+#fab{
+    display: block;
+    position: fixed;
+    bottom: 32px;
+    right: 30px;
+    z-index: 50;
+    width: 80px;
+    height: 80px;
+    background-color: #2863BC;
+    text-align: center;
+    border-radius: 50%;
+    margin-left: 640px;
+    outline: none;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.12), 0 4px 2px 0 rgba(0,0,0,.24);
+}
+
+#fab i{
+    color: white;
+    line-height: 80px;
+    font-size: 45px;
+}
+
+.btn button{
+    border: none;
+    font-size: 18px;
+    background: none;
+    font-family: "Impact";
+    color: #707070;
+}

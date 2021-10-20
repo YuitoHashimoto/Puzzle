@@ -1,0 +1,84 @@
+#homeMain {
+  display: none;
+}
+
+html, body {
+  height: 100%;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont,"Helvetica Neue","Segoe UI","Hiragino Kaku Gothic ProN",Meiryo,sans-serif;
+}
+
+.head__box {
+  padding: 94px;
+  text-align: center;
+  font-family: "Apple Braille";
+  font-size: 2.2rem;
+  line-height: 35px;
+  font-weight: 100;
+}
+
+.head__box p:first-line {
+  font-weight: 400;
+}
+
+.head__nav__list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.head__nav__list input {
+  display: none;
+}
+
+.head__nav__list__button {
+  font-family: "Apple Braille";
+  font-size: 1.6rem;
+  font-weight: 100;
+  text-align: center;
+  width: 152px;
+  height: 35px;
+  padding-top: 15px;
+  display: block;
+  position: relative;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.head__nav__list__button .underLine {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 152px;
+  height: 4px;
+  background: #2863BC;
+  transition: 0.5s ease-in-out;
+}
+
+.main__content {
+  width: 548px;
+  padding-top: 54px;
+  margin: 0 auto;
+}
+
+.main__content__text {
+  font-family: "Apple Braille";
+  font-size: 2.2rem;
+  line-height: 40px;
+  padding-bottom: 32px;
+  color: #707070;
+}
+
+.main__content__text::first-line {
+  font-family: "Impact";
+  color: #2863BC;
+}
